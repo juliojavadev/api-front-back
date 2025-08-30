@@ -38,7 +38,7 @@ public class UsuarioController {
 		return ResponseEntity.status(200).body(usuarioService.listarUsuario());
 	}
 	
-	//BUSCA POR ID DE USUARIO COM DTO
+	//BUSCA POR ID DE USUARIO COM DTO, última alteraçao
 	@GetMapping(value = "/{id}")
 	public UsuarioDTO findById(@PathVariable Integer id) {
 		return usuarioService.findById(id);
