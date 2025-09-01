@@ -9,7 +9,7 @@ public class UsuarioDTO {
 	private String email;
 //	private String senha;
 	private String telefone;
-//exibindo dados sem mostrar a senha usuario	
+//coorigindo erro pom xml downloads
 	
 	public UsuarioDTO() {
 		
